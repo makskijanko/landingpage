@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MK Absolute</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="mobile-nav">
+        <ul class="menu-items">
+          <li>
+            <a href="#about">About</a>
+          </li>
+
+          <li>
+            <a href="#projects">Services</a>
+          </li>
+
+          <li>
+            <a href="#testimonials">Pricing</a>
+          </li>
+
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <nav class="desktop-nav">
+        <div class="logo">
+          <a href="#">
+            <img src="images/logo.svg" alt="" />
+          </a>
+        </div>
+
+        <div class="menu-icon">
+          <img src="images/MenuIcon.svg" alt="" />
+        </div>
+
+        <ul class="menu-items">
+          <li>
+            <a href="#about" class="active">About</a>
+          </li>
+
+          <li>
+            <a href="#projects">Services</a>
+          </li>
+
+          <li>
+            <a href="#testimonials">Pricing</a>
+          </li>
+
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="btn">Book a call</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- End of Desktop Navigation -->
+
+      <header class="hero-container">
+        <div class="left">
+          <h1>Marketing Agency</h1>
+		  <h1>for Pet Product Businesses.</h1>
+		  <p>Agency with love to All Furry Friends that drives conversions.</p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="dog-container">
+          <img class="dog" src="images/dog.svg" alt="" />
+        </div>
+      </header>
+
+      <!-- End of Hero Section -->
+
+      <div class="brands-section">
+        <h2>Why us?</h2>
+		<p>Pet health and wellbeing is our number one priority and so is the quality
+		of our service.</p>
+
+        <div class="brands-container">
+			<img class="cat" src="images/cat.svg" alt="" />
+			<h2 class="title">Transparent</h2>
+        </div>
+		
+		<div class="brands2-container">
+			<img class="paw" src="images/paw.svg" alt="" />
+			<h2 class="title">Determined</h2>
+        </div>
+		
+		<div class="brands3-container">
+			<img class="ball" src="images/ball.svg" alt="" />
+			<h2 class="title">Results-Driven</h2>
+        </div>
+      </div>
+
+      <!-- End of Brands Section -->
+
+      <section id="about" class="about-section">
+        <div class="section-content">
+          <div class="about-description">
+            <h1>Over 100+ happy clients.</h1>
+            <p>
+			We have been mastering our service delivery for years now.
+            </p>
+          </div>
+
+          <img src="images/dogg.svg" alt="" />
+        </div>
+      </section>
+
+      <!-- End of About Us Section -->
+
+      <section id="projects" class="projects-section">
+
+        <div class="projects-gallery">
+		<div class="projects-description">
+		<h1>Paid Advertising</h1>
+            <p>
+			We provide just 1 service which is paid advertising. We believe that 
+			becoming experts in a given industry,
+			you must focus on one thing at a time.
+            </p>
+          <img class="hide" src="images/dogg2.svg" alt="" />
+		  </div>
+        </div>
+      </section>
+
+      <!-- End of the Projects Section -->
+	  
+	  <div class="testimonials-section">
+		<div class="testimonials1-container">
+			<img class="dollar1" src="images/$.svg" alt="" />
+			<h2 class="title">$1000</h2>
+        </div>
+		
+		<div class="testimonials2-container">
+			<img class="dollar2" src="images/$.svg" alt="" />
+			<h2 class="title">$1500</h2>
+        </div>
+		
+		<div class="testimonials3-container">
+			<img class="dollar3" src="images/$.svg" alt="" />
+			<h2 class="title">$1500+</h2>
+        </div>
+      </div>
+
+    <!-- End of Testimonials Section -->
+
+    <div class="wrapper">
+      <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form action="#">
+          <div class="group">
+            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Email" />
+          </div>
+
+          <div class="group">
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Your Message"
+            ></textarea>
+          </div>
+
+          <a href="#" class="btn cyan">Send Message</a>
+        </form>
+      </section>
+    </div>
+
+    <!-- End of Contact Section -->
+
+    <footer>
+      <div class="wrapper">
+        <div class="footer-container">
+          <div class="logo">
+            <img src="images/logo.svg" alt="" />
+          </div>
+
+          <div class="footer-nav">
+            <h3>About</h3>
+          </div>
+
+          <div class="footer-nav">
+            <h3>Services</h3>
+          </div>
+
+          <div class="footer-nav">
+            <h3>Contact</h3>
+
+            <div class="footer-social">
+            </div>
+
+            <p>makskijanko@gmail.com</p>
+          </div>
+        </div>
+      </div>
+
+      <p class="copyright">
+        MK Absolute &copy; 2023
+      </p>
+    </footer>
+
+    <!-- End of the Footer -->
+
+    <script src="glider.min.js"></script>
+
+    <script>
+      new Glider(document.querySelector(".testimonials"), {
+        slidesToShow: 1,
+        dots: ".dots",
+        arrows: {
+          prev: ".slider-prev",
+          next: ".slider-next",
+        },
+      });
+    </script>
+
+    <script src="main.js"></script>
+  </body>
+</html>
